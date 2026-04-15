@@ -2,8 +2,8 @@
 type: concept
 tags: [statistics, overfitting, factor-model]
 confidence: high
-last_reviewed: 2026-04-14
-related: [[concepts/factor-zoo]], [[source_summaries/harvey-liu-zhu-2016]], [[methodology/factor-validation]]
+last_reviewed: 2026-04-15
+related: [[concepts/factor-zoo]], [[concepts/faktor-decay]], [[source_summaries/harvey-liu-zhu-2016]], [[source_summaries/mclean-pontiff-2015]], [[methodology/factor-validation]]
 ---
 
 # Multiple Testing (Többszörös tesztelés)

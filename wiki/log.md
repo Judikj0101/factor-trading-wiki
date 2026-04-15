@@ -114,3 +114,12 @@ Kronologikus napló minden wiki műveletről. Append-only — korábbi bejegyzé
 - Frissített oldalak: [[open_questions/kke-factor-premiums]] (US monetáris sokktípus csatorna hozzáadva), [[wiki/index]] (új szekciók)
 - Ellentmondások: nem
 - Megjegyzés: w31247 (Dinerstein et al.) közvetlen relevancia alacsony — US fogyasztói pénzügyek; work1195 (Adrian et al.) és IDU (Arteta et al.) erősen releváns a KKE makro faktor kutatáshoz
+
+## [2026-04-15] ingest | 2. batch — 8 forrás (alapkövek + rezsim + decay)
+- Source summaries: [[source_summaries/fama-french-1992]], [[source_summaries/fama-macbeth-1973]], [[source_summaries/ross-1976]], [[source_summaries/novy-marx-2013]], [[source_summaries/caldara-iacoviello-2018]], [[source_summaries/mclean-pontiff-2015]], [[source_summaries/ang-bekaert-2002]], [[source_summaries/shanken-zhou-2006]]
+- Új entity oldalak: [[entities/gpr-index]], [[entities/apt]]
+- Új concept oldalak: [[concepts/rezsimdetekcio]], [[concepts/faktor-decay]]
+- Új methodology oldalak: [[methodology/fama-macbeth-regresszio]]
+- Frissített oldalak: [[entities/rmw]] (Novy-Marx link), [[entities/gdelt]] (GPR cross-ref), [[concepts/factor-zoo]] (decay szekció), [[concepts/multiple-testing]] (decay link), [[open_questions/missing-sources]] (8 forrás lezárva)
+- Ellentmondások: nem
+- Megjegyzés: Fama-MacBeth.pdf és FF1992 scanned — source summary saját tudás alapján

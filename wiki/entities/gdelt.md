@@ -80,3 +80,9 @@ Az MMCP (Multi-Modal Conflict Predictor) projekt szinten a GDELT-et hasznalja fo
 - **GDELT DOC API:** cikk-szintu kereses.
 - **GDELT Analysis Service:** vizualizacio es trending.
 - **Nyers fajlok:** 15 percenkent frissulo CSV archivum.
+
+## Összehasonlítás GPR indexszel
+
+A GDELT Tone és a Caldara-Iacoviello GPR index különböző dimenziókat mérnek — részletes összevetés: [[comparisons/gdelt-tone-vs-gpr]], entitás: [[entities/gpr-index]]
+
+Rövid összefoglalás: GPR = geopolitikailag specifikus, havi, csak kockázatot mér; GDELT = általános sentiment, napi, pozitív és negatív is.

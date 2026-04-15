@@ -2,8 +2,8 @@
 type: concept
 tags: [factor-model, overfitting, statistics, cross-section]
 confidence: high
-last_reviewed: 2026-04-14
-related: [[concepts/multiple-testing]], [[source_summaries/harvey-liu-zhu-2016]], [[entities/fama-french-five-factor-model]], [[methodology/factor-validation]]
+last_reviewed: 2026-04-15
+related: [[concepts/multiple-testing]], [[concepts/faktor-decay]], [[source_summaries/harvey-liu-zhu-2016]], [[source_summaries/mclean-pontiff-2015]], [[entities/fama-french-five-factor-model]], [[methodology/factor-validation]]
 ---
 
 # Factor Zoo
@@ -43,7 +43,16 @@ A "factor zoo" a pénzügyi irodalomban dokumentált faktorok elszaporodására 
 - [[methodology/deflated-sharpe-ratio]]: a Sharpe ratio korrekcioja a factor zoo kontextusaban
 - [[methodology/backtest-overfitting-detection]]: PBO/CSCV az overfitting valoszinusegenek meresere
 
+## Faktor decay — a zoo post-publikációs eróziója
+
+McLean & Pontiff (2015) empirikusan igazolják, hogy a zoo-ban szereplő faktorok hozama publikáció után szisztematikusan csökken:
+- OOS: −26%, post-publikáció: −58%
+- A decay lassabb illikvid részvényekben és nehezen replikálható stratégiáknál
+
+Lásd: [[concepts/faktor-decay]]
+
 ## Források
 
 - [[source_summaries/harvey-liu-zhu-2016]]
+- [[source_summaries/mclean-pontiff-2015]]
 - [[source_summaries/bailey-lopez-de-prado-2014-dsr]]

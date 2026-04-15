@@ -2,8 +2,8 @@
 type: entity
 tags: [factor-model, cross-section, profitability]
 confidence: high
-last_reviewed: 2026-04-14
-related: [[entities/fama-french-five-factor-model]], [[entities/cma]], [[entities/hml]], [[open_questions/hml-redundancy]]
+last_reviewed: 2026-04-15
+related: [[entities/fama-french-five-factor-model]], [[entities/cma]], [[entities/hml]], [[open_questions/hml-redundancy]], [[source_summaries/novy-marx-2013]]
 ---
 
 # RMW (Robust Minus Weak)
@@ -34,9 +34,11 @@ $$OP = \frac{\text{Revenue} - \text{COGS} - \text{SGA} - \text{Interest Expense}
 
 ## Kapcsolódó kutatás
 
-- Novy-Marx (2013): gross profitability premium — az RMW előfutára
+- **Novy-Marx (2013):** gross profitability premium — az RMW közvetlen előfutára. Gross profits-to-assets (GP/A) = (Revenue − COGS) / Total Assets, szemben az FF5 operatív profitabilitással. Empirikusan erősebb jel, komplementer a B/M-mel → [[source_summaries/novy-marx-2013]]
 - A profitability faktor robusztusabb, mint a size prémium
+- Novy-Marx bizonyítja, hogy GP/A és B/M **komplementer** — együttes alkalmazásuk csökkenti a volatilitást és javítja a hozamot
 
 ## Források
 
 - [[source_summaries/fama-french-2014]]
+- [[source_summaries/novy-marx-2013]]
