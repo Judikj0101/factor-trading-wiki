@@ -3,7 +3,7 @@ type: source_summary
 tags: [backtesting, cross-validation, risk-management, performance, statistics]
 confidence: high
 last_reviewed: 2026-04-14
-related: [[entities/sharpe-ratio]], [[methodology/factor-validation]], [[methodology/backtesting]], [[methodology/cross-validation]], [[methodology/stress-testing]], [[concepts/multiple-testing]]
+related: [[entities/sharpe-ratio]], [[methodology/factor-validation]], [[methodology/backtesting]], [[methodology/cross-validation]], [[concepts/multiple-testing]]
 ---
 
 # Simonian (2024) — Investment Model Validation: A Guide for Practitioners

@@ -1,5 +1,6 @@
 ---
 type: log
+last_reviewed: 2026-04-15
 ---
 
 # Factor Trading Wiki — Log
@@ -123,3 +124,10 @@ Kronologikus napló minden wiki műveletről. Append-only — korábbi bejegyzé
 - Frissített oldalak: [[entities/rmw]] (Novy-Marx link), [[entities/gdelt]] (GPR cross-ref), [[concepts/factor-zoo]] (decay szekció), [[concepts/multiple-testing]] (decay link), [[open_questions/missing-sources]] (8 forrás lezárva)
 - Ellentmondások: nem
 - Megjegyzés: Fama-MacBeth.pdf és FF1992 scanned — source summary saját tudás alapján
+
+## [2026-04-15] lint | Wiki karbantartás
+- Halott linkek javítva: [[methodology/stress-testing]] → eltávolítva simonian-2024-ból (backtesting-re cserélve)
+- Új oldal: [[comparisons/gdelt-tone-vs-gpr]] — 5 orphan hivatkozás feloldva
+- Frissített oldalak: [[wiki/index]] (új comparison, lint timestamp), [[wiki/log]] (last_reviewed)
+- Frontmatter: last_reviewed mező pótolva 3 meta fájlban (index.md, log.md, contradictions.md)
+- Megjegyzés: az agent által jelzett backslash-hibák és árva comparison oldalak tévesek voltak — nem léteztek

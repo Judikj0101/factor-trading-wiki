@@ -1,5 +1,6 @@
 ---
 type: index
+last_reviewed: 2026-04-15
 last_updated: 2026-04-14
 ---
 
@@ -118,6 +119,7 @@ _Összevetések._
 - [[comparisons/barra-vs-fama-french]] — Barra vs Fama-French: módszertan, cél, felhasználás
 - [[comparisons/ff3-vs-ff5]] — FF3 vs Carhart 4F vs FF5: melyiket mikor
 - [[comparisons/capm-vs-multifactor]] — CAPM vs Multi-Factor modellek evolúciója
+- [[comparisons/gdelt-tone-vs-gpr]] — GDELT Tone vs GPR Index: mit mér, mikor melyiket
 
 ## Open Questions
 _Amit nem tudunk, amit tesztelni kell._
@@ -129,4 +131,4 @@ _Amit nem tudunk, amit tesztelni kell._
 ---
 
 _Ez az index automatikusan frissül minden ingest és lint művelet során._
-_Utoljára frissítve: 2026-04-15 (2. batch)_
+_Utoljára frissítve: 2026-04-15 (lint)_
