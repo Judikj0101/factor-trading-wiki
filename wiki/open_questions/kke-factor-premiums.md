@@ -1,9 +1,9 @@
 ---
 type: open_question
-tags: [factor-model, kke, emerging-markets, cross-section]
+tags: [factor-model, kke, emerging-markets, cross-section, macro-factor, monetary-policy]
 confidence: low
-last_reviewed: 2026-04-14
-related: [[entities/fama-french-five-factor-model]], [[entities/smb]], [[entities/hml]], [[concepts/value-premium]], [[concepts/factor-zoo]], [[concepts/news-sentiment-factor]], [[source_summaries/foye-mramor-pahor-2016]], [[source_summaries/claesson-2021]]
+last_reviewed: 2026-04-15
+related: [[entities/fama-french-five-factor-model]], [[entities/smb]], [[entities/hml]], [[entities/term-premium]], [[concepts/value-premium]], [[concepts/factor-zoo]], [[concepts/news-sentiment-factor]], [[concepts/monetary-policy-spillover]], [[source_summaries/foye-mramor-pahor-2016]], [[source_summaries/claesson-2021]], [[source_summaries/adrian-gelos-lamersdorf-moench-2024]], [[source_summaries/arteta-kamin-ruch-2022]]
 ---
 
 # Mukodnek-e a Fama-French faktorok a KKE piacokon?
@@ -52,6 +52,14 @@ A Fama-French faktor modellek (3-, 5-, 6-faktor) az USA piacon lettek kifejleszt
 - **Foye et al. (2016):** a szamviteli manipulacio proxy (NI/CFO) **szignifikansan jobb** mint az SMB az EE EU piacokon.
 - Ez egy a [[concepts/factor-zoo]] bővitmeny, ami KKE-ban relev lehetáns.
 
+### US monetáris politika spillover — újonnan dokumentált csatorna
+
+- **Arteta, Kamin & Ruch (2022):** Az USA kamatemelés hatása az EMDE-kre (beleértve KKE-t) erősen függ a sokk típusától:
+  - **Reakciós sokk** (hawkish Fed fordulat): szuverén spread szélesedés, devizaleértékelés, tőkekivonás, közel megduplázódó válságvalószínűség — a KKE piacokra különösen erős hatású
+  - **Reál sokk** (erős US növekedés): kedvező spillover, EM részvények felülteljesítenek
+  - **Inflációs sokk:** közepes-káros hatás
+- **Adrian et al. (2024):** A Fed sokkokra adott EM kötvényhozam-reakció **perzisztens** (csúcs ~10 hét, nem azonnal), és post-GFC-ban aszimmetrikus — a KKE szuverén hozamok tükrözik az US Treasury dinamikáját. Lásd: [[entities/term-premium]], [[concepts/monetary-policy-spillover]]
+
 ## Amit NEM tudunk
 
 1. **Friss adatok:** a Foye et al. tanulmany 2005–2010, Claesson 2021-ig — de nincs KKE-specifikus friss elemzes.
@@ -59,6 +67,7 @@ A Fama-French faktor modellek (3-, 5-, 6-faktor) az USA piacon lettek kifejleszt
 3. **Faktor premiumok nagysaga:** ha a value premium letezik is KKE-ban, **mekkora** es mennyire stabil?
 4. **Sentiment faktor KKE-ban:** a [[concepts/news-sentiment-factor]] tesztelese KKE piacokra nem tortent meg.
 5. **Rezsimuerzekenyueg:** a KKE piacok 2004 (EU csatlakozas), 2008 (valsag), 2020 (COVID) korul nagyon kulonbozo rezsimuekben mukodtek — az allando faktor premiumok feltételezése kerdéses.
+6. **Monetáris politikai sokktípus és KKE faktorok:** mennyire differenciálódnak a KKE részvényfaktor hozamok reakciós vs. reál sokk rezsimben? (Arteta et al. keretrendszer alkalmazása KKE részvényadatokra — teszteletlen)
 
 ## Milyen forrasra lenne szukseg
 
@@ -72,7 +81,9 @@ A Fama-French faktor modellek (3-, 5-, 6-faktor) az USA piacon lettek kifejleszt
 - [[entities/fama-french-five-factor-model]]
 - [[entities/smb]]
 - [[entities/hml]]
+- [[entities/term-premium]]
 - [[concepts/value-premium]]
 - [[concepts/factor-zoo]]
 - [[concepts/news-sentiment-factor]]
+- [[concepts/monetary-policy-spillover]]
 - [[entities/gdelt]]

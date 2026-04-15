@@ -106,3 +106,11 @@ Kronologikus napló minden wiki műveletről. Append-only — korábbi bejegyzé
 - Új entity: [[entities/gdelt]]
 - Új concept: [[concepts/news-sentiment-factor]]
 - Ellentmondások: nem
+
+## [2026-04-15] ingest | Monetáris politika & EMDE spillover (3 forrás)
+- Source summaries: [[source_summaries/dinerstein-yannelis-chen-2023]], [[source_summaries/adrian-gelos-lamersdorf-moench-2024]], [[source_summaries/arteta-kamin-ruch-2022]]
+- Új entity oldalak: [[entities/term-premium]]
+- Új concept oldalak: [[concepts/monetary-policy-spillover]]
+- Frissített oldalak: [[open_questions/kke-factor-premiums]] (US monetáris sokktípus csatorna hozzáadva), [[wiki/index]] (új szekciók)
+- Ellentmondások: nem
+- Megjegyzés: w31247 (Dinerstein et al.) közvetlen relevancia alacsony — US fogyasztói pénzügyek; work1195 (Adrian et al.) és IDU (Arteta et al.) erősen releváns a KKE makro faktor kutatáshoz

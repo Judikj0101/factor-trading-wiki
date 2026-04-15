@@ -36,6 +36,9 @@ _Konkrét módszerek, mutatók, adatforrások, modellek._
 - [[entities/ken-french-data-library]] — FF faktor hozamok, portfólió adatok (1926–present)
 - [[entities/gdelt]] — GDELT Event DB + GKG: geopolitikai és sentiment adatforrás
 
+### Makro faktorok
+- [[entities/term-premium]] — Kötvény lejárati kockázati prémium (ACM modell)
+
 ## Concepts
 _Absztrakt fogalmak amik entitásokon átívelnek._
 
@@ -45,6 +48,7 @@ _Absztrakt fogalmak amik entitásokon átívelnek._
 - [[concepts/factor-cyclicality]] — Faktorok ciklikus alul/felülteljesítése
 - [[concepts/covariance-matrix]] — Kovariancia mátrix és faktor dekompozíció
 - [[concepts/news-sentiment-factor]] — Hírek/média sentiment mint faktor (GDELT, FinBERT, NLP)
+- [[concepts/monetary-policy-spillover]] — US Fed sokktípusok és globális/EM spillover hatások
 
 ## Methodology
 _Standard eljárások lépésről lépésre._
@@ -84,11 +88,16 @@ _Feldolgozott források kivonatai._
 ### KKE & Emerging Markets
 - [[source_summaries/claesson-2021]] — Claesson (2021): FF models in Emerging Markets (26 ország)
 - [[source_summaries/foye-mramor-pahor-2016]] — Foye, Mramor & Pahor (2016): FF3 a KKE EU-ban
+- [[source_summaries/arteta-kamin-ruch-2022]] — Arteta, Kamin & Ruch (2022): US kamatemelés hatása EMDE-kre (sokktípus-dekompozíció)
+- [[source_summaries/adrian-gelos-lamersdorf-moench-2024]] — Adrian et al. (2024): Fed policy aszimmetrikus hatása globális kötvényhozamokra (BIS)
 
 ### GDELT & News Sentiment
 - [[source_summaries/shen-xia-shuai-gao-2022]] — Shen et al. (2022): GDELT GKG sentiment kínai piacokon
 - [[source_summaries/zhang-2025]] — Zhang (2025): GDELT + FinBERT + XGBoost macro alpha
 - [[source_summaries/consoli-pezzoli-tosetti-2020]] — Consoli et al. (2020): GDELT olasz államkötvény spread
+
+### Makro & Fogyasztói Pénzügyek
+- [[source_summaries/dinerstein-yannelis-chen-2023]] — Dinerstein et al. (2023): Adósságmoratórium és likviditás-hitel komplementaritás (NBER)
 
 ## Comparisons
 _Összevetések._
@@ -107,3 +116,4 @@ _Amit nem tudunk, amit tesztelni kell._
 ---
 
 _Ez az index automatikusan frissül minden ingest és lint művelet során._
+_Utoljára frissítve: 2026-04-15_
